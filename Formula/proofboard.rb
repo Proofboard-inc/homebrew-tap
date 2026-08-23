@@ -13,18 +13,18 @@ class Proofboard < Formula
   on_macos do
     on_arm do
       url "https://github.com/Proofboard-inc/proofboard-cli/releases/download/v1.12.2/proofboard-darwin-arm64"
-      sha256 "f94223515b3bb4f2c20c9e1afb974989f93552f32db0efbdf6fb46f60a7cb89b"
+      sha256 "24959af2ce9cff5ff4280464a78036d922dce3c96e3a3d928641a932ef6655c4"
     end
     on_intel do
       url "https://github.com/Proofboard-inc/proofboard-cli/releases/download/v1.12.2/proofboard-darwin-amd64"
-      sha256 "adc18b82bddcd0164c61eacd3439886e6e8e945469e4636a03bfb5524ae04615"
+      sha256 "9b4a3b8c2ab322e3e61aee78b4bbbfa65c955866956a2869c6a6cbd691cb8d0d"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Proofboard-inc/proofboard-cli/releases/download/v1.12.2/proofboard-linux-amd64"
-      sha256 "ff73583353cf0f3dbc6b3e4fb730aa5bafad22c7135b77408814b6aeda3ad1fe"
+      sha256 "682f5951b65e6a8414456b0aacbd4d7e5c6f4499cb14cd3d936298dd9c9e4b8c"
     end
   end
 
