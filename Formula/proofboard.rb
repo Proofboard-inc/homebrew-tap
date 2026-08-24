@@ -7,24 +7,24 @@
 class Proofboard < Formula
   desc "Proofboard Career Agent - builds your engineering career record locally"
   homepage "https://github.com/Proofboard-inc/proofboard-cli"
-  version "1.15.5"
+  version "1.16.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Proofboard-inc/proofboard-cli/releases/download/v1.15.5/Proofboard-Career-Agent-darwin-arm64"
-      sha256 "be196553f72e27f7761ca62328a399cc7f6e7939dd93d021467b961c382e6074"
+      url "https://github.com/Proofboard-inc/proofboard-cli/releases/download/v1.16.0/Proofboard-Career-Agent-darwin-arm64"
+      sha256 "4511d099f94b4974d6ef0048331a5159d9c3633d5a4de91d1307d3cbcdbb5ef0"
     end
     on_intel do
-      url "https://github.com/Proofboard-inc/proofboard-cli/releases/download/v1.15.5/Proofboard-Career-Agent-darwin-amd64"
-      sha256 "30b6abe380fbebb2a5a3e7800f6de76e617177e23e87ecc122b89aae839e589a"
+      url "https://github.com/Proofboard-inc/proofboard-cli/releases/download/v1.16.0/Proofboard-Career-Agent-darwin-amd64"
+      sha256 "c40e5cddbbace76f9346036e6efe132b78c007f6f787873342d2dc51aeec6551"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Proofboard-inc/proofboard-cli/releases/download/v1.15.5/Proofboard-Career-Agent-linux-amd64"
-      sha256 "0e91b97eed6025ddc0a28043f69fb30c02d4f07e0efa579d961a72006f82c3e0"
+      url "https://github.com/Proofboard-inc/proofboard-cli/releases/download/v1.16.0/Proofboard-Career-Agent-linux-amd64"
+      sha256 "23f3f65325ffba7085a5af126e606897199544fb88a731023662679f948e49d9"
     end
   end
 
