@@ -7,31 +7,31 @@
 class Proofboard < Formula
   desc "Proofboard Career Agent - builds your engineering career record locally"
   homepage "https://github.com/Proofboard-inc/proofboard-cli"
-  version "1.16.3"
+  version "1.16.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Proofboard-inc/proofboard-cli/releases/download/v1.16.3/Proofboard-Career-Agent-darwin-arm64"
-      sha256 "2d736df1b01d444c3b2960c5ed46830f799bc6cc76a06b2693f0fd6e37cd614a"
+      url "https://github.com/Proofboard-inc/proofboard-cli/releases/download/v1.16.4/Proofboard-Career-Agent-darwin-arm64"
+      sha256 "2e8a1d967e4ab8765d3400fe4bd031c114f82cae8414542bf158849167d3ca2a"
     end
     on_intel do
-      url "https://github.com/Proofboard-inc/proofboard-cli/releases/download/v1.16.3/Proofboard-Career-Agent-darwin-amd64"
-      sha256 "5ef879915493f52c4f247d03fe959bbee51d76a979cca67488c38381ae39e34d"
+      url "https://github.com/Proofboard-inc/proofboard-cli/releases/download/v1.16.4/Proofboard-Career-Agent-darwin-amd64"
+      sha256 "1305557d71bdf81df895122f7006323025cde9588c28007ca387d6c6be5dd7e7"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Proofboard-inc/proofboard-cli/releases/download/v1.16.3/Proofboard-Career-Agent-linux-amd64"
-      sha256 "7dfaacee3e00c22c8aaf5b2cf2267b87d9302fe2e4f0387c8ce5058f9d71a76f"
+      url "https://github.com/Proofboard-inc/proofboard-cli/releases/download/v1.16.4/Proofboard-Career-Agent-linux-amd64"
+      sha256 "bdb24bf477ba4210ef9c7d2fd341061a33ab41a06806c1cc1e02205788be634b"
     end
     # Single-board machines and ARM cloud instances. The release publishes a
     # linux-arm64 build, so refusing it here would describe the tap rather
     # than the tool.
     on_arm do
-      url "https://github.com/Proofboard-inc/proofboard-cli/releases/download/v1.16.3/Proofboard-Career-Agent-linux-arm64"
-      sha256 "1ed2ac4c64b379252d35985cbf0622d648cbded763aff835c9c29bb4e44ae534"
+      url "https://github.com/Proofboard-inc/proofboard-cli/releases/download/v1.16.4/Proofboard-Career-Agent-linux-arm64"
+      sha256 "de23c0a148f70f1dbbac6c894710eccc721660b9e4cbc25cd690b3dddfc468bf"
     end
   end
 
